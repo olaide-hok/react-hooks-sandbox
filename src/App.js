@@ -2,14 +2,16 @@
 // import UseRefExample2 from "./components/UseRefExample2";
 // import UseRefExample3 from "./components/useRefExample3";
 
-import UseCallbackExample from "./components/UseCallbackExample";
+// import UseCallbackExample from "./components/UseCallbackExample";
 
 // import UseMemoExample from "./components/UseMemoExample";
+
+import CustomHooksExample1 from "./components/CustomHooksExample1"
 
 function App() {
   return (
     <div className="container mt-5">
-      <UseCallbackExample />  
+      <CustomHooksExample1 />  
     </div>
   );
 }
